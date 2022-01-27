@@ -23,7 +23,7 @@ export const Card = ({
 		<div className={styles.Card__InfoWrapper}>
 
 			<p>
-				Айди пользователя <b>{card.id}</b>
+				ID пользователя <b>{card.id}</b>
 			</p>
 			
 			<p>
