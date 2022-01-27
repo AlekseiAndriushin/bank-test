@@ -1,0 +1,1 @@
+export { picsumReducer } from './picsum';
