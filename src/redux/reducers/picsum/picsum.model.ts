@@ -2,8 +2,6 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 import { getPicsumList } from './api.actions';
 
-import type { ICard } from '../../../api/picsum';
-
 const initialState: IPicsumState = {
   cardsList: []
 };
@@ -28,8 +26,8 @@ const picsumSlice = createSlice({
   extraReducers: (builder) => {
     builder
 	  // get picsum list
-      .addCase(getPicsumList.fulfilled, (state, action) => {
-        state.cardsList = action.payload as any;
+      .addCase(getPicsumList.fulfilled, (state : IPicsumState, action: any) => {
+        state.cardsList = action.payload;
       });
   },
 });
@@ -41,3 +39,10 @@ export const picsumReducer = picsumSlice.reducer;
 export interface IPicsumState {
   cardsList: ICard[];
 };
+
+interface ICard {
+	id: string;
+	author: string;
+	download_url: string;
+	like: boolean;
+}
