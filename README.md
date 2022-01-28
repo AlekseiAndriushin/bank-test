@@ -3,11 +3,15 @@
 `yarn`</br>
 `yarn start`
 
+## Github pages
+
+[Тут](https://alexeyandryushin.github.io/alfabank-test/)
+
 ## Стек проекта
 
-React
-Typescript
-Redux-toolkit
+React </br>
+Typescript </br>
+Redux-toolkit </br>
 
 ## Задание
 Создать SPA со списком карточек, на каждой из которых выводится картинка и любая информация на ваш вкус, которая пришла с эндпоинта. Для задачи можно выбрать любое публичное api, например, отсюда https://github.com/public-apis/public-apis
