@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/alfabank-test/static/css/main.d47f584b.css",
+    "main.js": "/alfabank-test/static/js/main.5066b94a.js",
+    "static/js/787.e5109a9a.chunk.js": "/alfabank-test/static/js/787.e5109a9a.chunk.js",
+    "static/media/errorImagePreview.png": "/alfabank-test/static/media/errorImagePreview.ae9a8416afa4fc033f29.png",
+    "static/media/emptyImagePreview.png": "/alfabank-test/static/media/emptyImagePreview.a2d3a6008895dac7f496.png",
+    "index.html": "/alfabank-test/index.html",
+    "main.d47f584b.css.map": "/alfabank-test/static/css/main.d47f584b.css.map",
+    "main.5066b94a.js.map": "/alfabank-test/static/js/main.5066b94a.js.map",
+    "787.e5109a9a.chunk.js.map": "/alfabank-test/static/js/787.e5109a9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d47f584b.css",
+    "static/js/main.5066b94a.js"
+  ]
+}
