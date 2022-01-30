@@ -26,7 +26,7 @@ const picsumSlice = createSlice({
   extraReducers: (builder) => {
     builder
 	  // get picsum list
-      .addCase(getPicsumList.fulfilled, (state : IPicsumState, action: any) => {
+      .addCase(getPicsumList.fulfilled, (state : IPicsumState, action: PayloadAction<ICard[]>) => {
         state.cardsList = action.payload;
       });
   },

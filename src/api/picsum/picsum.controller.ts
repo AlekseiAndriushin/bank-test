@@ -1,7 +1,5 @@
-import { IGetCardList } from '.';
+import { ICard, IGetCardList } from '.';
 import { Controller } from '../config';
-
-import type { IGetCardListResponse } from './response.types';
 
 class PicsumController extends Controller {
 	public constructor() {
@@ -11,7 +9,7 @@ class PicsumController extends Controller {
 	}
 
 	public async getImgList({...params}: IGetCardList) {
-		return this.get<IGetCardListResponse>('/list', {
+		return this.get<ICard[]>('/list', {
 			params
 		});
 	}
